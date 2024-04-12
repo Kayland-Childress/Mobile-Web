@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">The Shop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Our Team</a>
+        
+        <a class="nav-link" href="#">Services</a>
+        <a class="nav-link" href="#">Book Now</a>
+      </div>
+    </div>
+  </div>
+</nav>-->
+
+      <nav id="navbar-example2" class="navbar navbar-dark bg-dark px-3 mb-3">
+        <a class="navbar-brand" href="#">The Shop</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Book Now</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#navbar-example2"
+        data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true"
+        class="scrollspy-example rounded-2"
+        tabindex="0"
+      >
+        <h1 id="scrollspyHeading1">The Shop</h1>
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <p>
+                The Shop is a classic barbershop located in the heart of
+                downtown Benton. With a wide-range of services we provide
+                haircuts, straight razor shaves, beard shaping, facials & more.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <img
+                src="assets/img/cutout1.jpg"
+                class="rounded mx-auto d-block"
+                alt="Active Hair Cut"
+              />
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: auto">
+                <div class="card-body">
+                  <h2 class="card-title">Business Hours</h2>
+                  <h4 class="card-subtitle">Tuesday-Thursday</h4>
+                  <p class="card-text">10:00 AM - 6:00 PM</p>
+                  <h4 class="card-subtitle">Friday-Saturday</h4>
+                  <p class="card-text">10:00 AM - 6:30 PM</p>
+                  <h4 class="card-subtitle">Sunday-Monday</h4>
+                  <p class="card-text">Closed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1 id="scrollspyHeading2">Our Team</h1>
+
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card-group">
+              <div class="card">
+                <img
+                  src="assets/img/shay_campbell.jpg"
+                  class="card-img-top"
+                  alt="Shay Campbell"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Shay Campbell</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="assets/img/tj_klipperhandz1.jpg"
+                  class="card-img-top"
+                  alt="TJ Klipperhandz"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">TJ Klipperhandz</h5>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="assets/img/kyleshinn1.jpg"
+                  class="card-img-top"
+                  alt="Kyle Shinn"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kyle Shinn</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 id="scrollspyHeading3">What We Do</h1>
+        <p>...</p>
+
+        <h1 id="scrollspyHeading4">Book an appointment with us!</h1>
+        <p>Contact Form Goes Here</p>
+      </div>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+  </body>
+</html>

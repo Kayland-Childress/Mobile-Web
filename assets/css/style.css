@@ -1,0 +1,62 @@
+/*Cource Home Page Stylesheet*/
+
+html {
+  box-sizing: border-box;
+}
+
+/*===================
+    My Theme
+  ====================*/
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/bg-web.jpg");
+  height: 100vh;
+
+  font-family: "Lato", sans-serif;
+  color: white;
+
+  position: relative;
+  align-content: center;
+  text-align: center;
+}
+
+.primary h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 6em;
+}
+
+.primary h2 {
+  font-size: 3em;
+}
+
+#container {
+  background-color: rgba(129, 80, 102, 0.4);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+
+nav {
+  display: flex;
+}
+
+menu {
+  align-items: center;
+}
+
+menuitem {
+  display: flex;
+}

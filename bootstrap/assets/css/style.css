@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+  }
+
+  body{
+    background-image: url(../img/darkest-blue-brick.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+  }
+  
+  main {
+    align-content: center;
+    text-align: center;
+  }
+
+  .nav-link{
+    color:#FE5B52;
+  }
+  
+  .card-title{
+    padding: 20px;
+  }
+  
+  .card-text{
+    padding-bottom: 20px;
+  }
+
+  img{
+    width: 200px;
+    height: 200px;
+  }

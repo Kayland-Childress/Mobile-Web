@@ -1,0 +1,59 @@
+/*------Static Grid Style------*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/*body{
+      background-image: url("../img/grid2.png");
+    }*/
+
+main {
+  margin: 20px auto;
+  border: 1px solid #075f63;
+}
+
+header.primary,
+footer.primary {
+  /*  width:920px; */
+  width: 95.8333%;
+  background: rgba(7, 95, 99, 0.4);
+  /* margin:20px; */
+  margin: 2.0833%;
+  padding: 20px;
+  float: right;
+}
+
+#blog {
+  background: rgba(7, 95, 99, 0.6);
+  /* width: 604px; */
+  width: 62.91667%;
+  margin-right: 2.0833%;
+  padding: 20px;
+  float: right;
+}
+
+aside {
+  background: rgba(7, 95, 99, 0.3);
+  /*width: 292px;*/
+  width: 30.41667%;
+  margin-left: 2.0833%;
+  padding: 20px;
+  float: left;
+}

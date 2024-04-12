@@ -1,0 +1,67 @@
+/*------CSS Grid Exercise 1 Style------*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .cf:before,
+  .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+  
+  .cf:after {
+    clear: both;
+  }
+  
+  /*body{
+      background-image: url("../img/grid2.png");
+    }*/
+  
+  main {
+    width: 80wv;
+    display: grid;
+    grid-template-columns: repeat(6, [col-] 1fr);
+    grid-template-rows: auto;
+    margin: auto;
+    gap: 20px;
+    border: 1px solid #ff10f0;
+    padding: 20px;
+  }
+  
+  header.primary {
+    background: rgba(255, 16, 240, 0.4);
+    grid-column: 1 / 7;
+    grid-row: 1 / 2;
+  }
+  
+  #content {
+    grid-column: 1 / 7;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    
+  }
+  
+  footer.primary {
+    background: rgba(255, 16, 240, 0.4);
+    grid-column: 1 / 7;
+    grid-row: 3 / 4;
+  }
+  
+  #blog {
+    background: rgba(255, 16, 240, 0.6);
+    grid-column: 3 / 7;
+  }
+  
+  aside {
+    background: rgba(255, 16, 240, 0.3);
+    grid-column: 1 / 3;
+  }
