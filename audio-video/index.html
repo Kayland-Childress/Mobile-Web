@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML5 Audio</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+    <link href="audio.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>HTML5 Audio and Video Examples</h1>
+      </header>
+
+      <article>
+        <h1>HTML5 Audio</h1>
+
+        <audio controls="controls">
+          <source src="assets/audio/thunder.ogg" type="audio/ogg" />
+          <!-- Firefox, Opera, Chrome -->
+          <source src="assets/audio/thunder.mp3" type="audio/mp3" />
+          <!-- Safari, Chrome, IE9+ -->
+          <source src="assets/audio/thunder.wav" type="audio/wav" />
+          <!-- Safari, Opera, IE9+, Firefox -->
+          <a href="assets/audio/thunder.mp3">Download the Audio</a>
+        </audio>
+      </article>
+    </section>
+  </body>
+</html>
