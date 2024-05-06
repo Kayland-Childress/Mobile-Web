@@ -2,8 +2,13 @@
 
 /* Wrapper */
 
-#wrapper {
-  background-image: url("../img/overlay.png"),
+/*==========================*/
+/*Temporary disable of wrapper
+  to see if BG will show somewhere else*/
+/*==========================*/
+
+/*#wrapper.fade-in {
+  background-image: 
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("../img/bg-brick.jpg");
   background-size: auto, auto, 100% auto;
@@ -11,11 +16,11 @@
   background-repeat: repeat, no-repeat, no-repeat;
   background-attachment: fixed, fixed, fixed;
   background-color: #212931;
-}
-
-/*#wrapper.fade-in:before {
-  display: none;
 }*/
+
+#wrapper.fade-in:before {
+  display: none;
+}
 
 /* Intro */
 
@@ -31,6 +36,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   opacity: 1;
 }
 
-body {
+/*body {
   background-image: url("../img/bg-brick.jpg");
-}
+}*/

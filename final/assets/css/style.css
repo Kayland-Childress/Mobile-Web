@@ -131,9 +131,9 @@ table {
   border-spacing: 0;
 }
 
-body {
+/*body {
   -webkit-text-size-adjust: none;
-}
+}*/
 
 mark {
   background-color: transparent;
@@ -181,8 +181,22 @@ html {
   box-sizing: inherit;
 }
 
+/*==========================*/
+/*Organized body CSS in one place.
+  Tried putting BG image in body.*/
+/*==========================*/
 body {
+  background-image: 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../img/bg-brick.jpg");
+  background-size: auto, auto, 100% auto;
+  background-position: center, center, top center;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-attachment: fixed, fixed, fixed;
+  
   background-color: #1e252d;
+  color: #212931;
+  -webkit-text-size-adjust: none;
 }
 
 body.is-preload *,
@@ -222,9 +236,9 @@ html {
   }
 }
 
-body {
+/*body {
   color: #212931;
-}
+}*/
 
 body,
 input,
