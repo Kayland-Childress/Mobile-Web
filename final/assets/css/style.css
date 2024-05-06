@@ -107,7 +107,7 @@ html {
 }
 
 body {
-  background-color: #1e252d;
+  /*background-color: #1e252d;*/
   color: #212931;
   -webkit-text-size-adjust: none;
   line-height: 1;
@@ -1120,32 +1120,6 @@ table.alt tbody tr td {
   overflow: hidden;
 }
 
-#wrapper > .bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #212931;
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
-    ),
-    url("../img/bg-brick.jpg");
-  background-size: auto, auto, 100% auto;
-  background-position: center, center, top center;
-  background-repeat: repeat, no-repeat, no-repeat;
-  background-attachment: scroll, scroll, scroll;
-  z-index: -1;
-}
-
-#wrapper > .bg.fixed {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-}
-
 #wrapper.fade-in:before {
   pointer-events: none;
   -moz-transition: opacity 1s ease-in-out;
@@ -1165,6 +1139,27 @@ table.alt tbody tr td {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #212931;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("../img/darkest-blue-brick.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-color: #1e252d;
 }
 
 body.is-preload #wrapper.fade-in:before {
