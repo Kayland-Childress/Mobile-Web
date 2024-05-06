@@ -104,9 +104,9 @@ section {
   display: block;
 }
 
-body {
+/*body {
   line-height: 1;
-}
+}*/
 
 ol,
 ul {
@@ -181,22 +181,14 @@ html {
   box-sizing: inherit;
 }
 
-/*==========================*/
-/*Organized body CSS in one place.
-  Tried putting BG image in body.*/
-/*==========================*/
+/*================================*/
+/*Organized body CSS in one place.*/
+/*================================*/
 body {
-  background-image: 
-    linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../img/bg-brick.jpg");
-  background-size: auto, auto, 100% auto;
-  background-position: center, center, top center;
-  background-repeat: repeat, no-repeat, no-repeat;
-  background-attachment: fixed, fixed, fixed;
-  
   background-color: #1e252d;
   color: #212931;
   -webkit-text-size-adjust: none;
+  line-height: 1;
 }
 
 body.is-preload *,
@@ -412,7 +404,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #18bfef !important;
+  color: #AB5150 !important;
 }
 
 strong,
@@ -2326,8 +2318,8 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  box-shadow: inset 0 0 0 2px #18bfef;
-  color: #18bfef !important;
+  box-shadow: inset 0 0 0 2px #AB5150;
+  color: #AB5150 !important;
 }
 
 input[type="submit"].primary,
@@ -2345,7 +2337,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #18bfef;
+  background-color: #AB5150;
 }
 
 /* Form */
@@ -2598,7 +2590,8 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #18bfef;
+  /*border-color: #AB5150;*/
+  border-color: #AB5150;
 }
 
 select {
@@ -2614,7 +2607,7 @@ select option {
   color: #eeeeee;
 }
 
-input[type="checkbox"] + label,
+/*input[type="checkbox"] + label,
 input[type="radio"] + label {
   color: #212931;
 }
@@ -2633,7 +2626,7 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #18bfef;
+  border-color: #AB5150;
 }
 
 ::-webkit-input-placeholder {
@@ -2654,7 +2647,7 @@ input[type="radio"]:focus + label:before {
 
 .formerize-placeholder {
   color: #909498 !important;
-}
+}*/
 
 /* Icon */
 
@@ -2999,7 +2992,7 @@ ul.divided li {
 }
 
 ul.icons li a.icon:hover:before {
-  color: #18bfef;
+  color: #AB5150;
 }
 
 ul.icons.alt li .icon:before {
@@ -3007,7 +3000,7 @@ ul.icons.alt li .icon:before {
 }
 
 ul.icons.alt li a.icon:hover:before {
-  box-shadow: inset 0 0 0 2px #18bfef;
+  box-shadow: inset 0 0 0 2px #AB5150;
 }
 
 /* Section/Article */
@@ -3313,14 +3306,14 @@ table.alt tbody tr td {
 }
 
 .pagination a:hover {
-  color: #18bfef !important;
-  border-color: #18bfef;
+  color: #AB5150 !important;
+  border-color: #AB5150;
   z-index: 1;
 }
 
 .pagination a:hover + a,
 .pagination a:hover + span {
-  border-left-color: #18bfef;
+  border-left-color: #AB5150;
 }
 
 .pagination a.active {
@@ -3350,9 +3343,9 @@ table.alt tbody tr td {
   width: 100%;
   height: 100%;
   background-color: #212931;
-  background-image: url("../../images/overlay.png"),
+  background-image: 
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../../images/bg.jpg");
+    url("../img/bg-brick.jpg");
   background-size: auto, auto, 100% auto;
   background-position: center, center, top center;
   background-repeat: repeat, no-repeat, no-repeat;
@@ -3442,7 +3435,7 @@ body.is-preload #wrapper.fade-in:before {
 
 #intro a:hover {
   border-bottom-color: transparent;
-  color: #18bfef !important;
+  color: #AB5150 !important;
 }
 
 #intro strong,
@@ -3487,8 +3480,8 @@ body.is-preload #wrapper.fade-in:before {
 #intro input[type="button"]:hover,
 #intro button:hover,
 #intro .button:hover {
-  box-shadow: inset 0 0 0 2px #18bfef;
-  color: #18bfef !important;
+  box-shadow: inset 0 0 0 2px #AB5150;
+  color: #AB5150 !important;
 }
 
 #intro input[type="submit"].primary,
@@ -3506,7 +3499,7 @@ body.is-preload #wrapper.fade-in:before {
 #intro input[type="button"].primary:hover,
 #intro button.primary:hover,
 #intro .button.primary:hover {
-  background-color: #18bfef;
+  background-color: #AB5150;
 }
 
 #intro h1 {
@@ -3656,7 +3649,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #header a:hover {
   border-bottom-color: transparent;
-  color: #18bfef !important;
+  color: #AB5150 !important;
 }
 
 #header strong,
@@ -3710,8 +3703,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #header .logo:hover {
-  border-color: #18bfef !important;
-  color: #18bfef !important;
+  border-color: #AB5150 !important;
+  color: #AB5150 !important;
 }
 
 @media screen and (max-width: 980px) {
@@ -3761,7 +3754,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #nav ul.icons li a.icon:hover:before {
-  color: #18bfef;
+  color: #AB5150;
 }
 
 #nav ul.icons.alt li .icon:before {
@@ -3769,7 +3762,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #nav ul.icons.alt li a.icon:hover:before {
-  box-shadow: inset 0 0 0 2px #18bfef;
+  box-shadow: inset 0 0 0 2px #AB5150;
 }
 
 #nav input,
@@ -3785,7 +3778,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #nav a:hover {
   border-bottom-color: transparent;
-  color: #18bfef !important;
+  color: #AB5150 !important;
 }
 
 #nav strong,
@@ -3867,7 +3860,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #nav ul.links li.active a:hover {
-  color: #18bfef !important;
+  color: #AB5150 !important;
 }
 
 #nav ul.icons {
@@ -3954,6 +3947,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     line-height: 1.2;
     margin: 0 0 1.5rem 0;
   }
+}
+
+#main > .posts p {
+  text-align: center;
 }
 
 #main > .posts {
@@ -4101,7 +4098,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #footer a:hover {
   border-bottom-color: transparent;
-  color: #18bfef !important;
+  color: #AB5150 !important;
 }
 
 #footer strong,
@@ -4150,8 +4147,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 #footer input[type="button"]:hover,
 #footer button:hover,
 #footer .button:hover {
-  box-shadow: inset 0 0 0 2px #18bfef;
-  color: #18bfef !important;
+  box-shadow: inset 0 0 0 2px #AB5150;
+  color: #AB5150 !important;
 }
 
 #footer input[type="submit"].primary,
@@ -4169,7 +4166,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 #footer input[type="button"].primary:hover,
 #footer button.primary:hover,
 #footer .button.primary:hover {
-  background-color: #18bfef;
+  background-color: #AB5150;
 }
 
 #footer label {
@@ -4189,7 +4186,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 #footer input[type="email"]:focus,
 #footer select:focus,
 #footer textarea:focus {
-  border-color: #18bfef;
+  border-color: #AB5150;
 }
 
 #footer select {
@@ -4224,7 +4221,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #footer input[type="checkbox"]:focus + label:before,
 #footer input[type="radio"]:focus + label:before {
-  border-color: #18bfef;
+  border-color: #AB5150;
 }
 
 #footer ::-webkit-input-placeholder {
@@ -4252,7 +4249,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #footer ul.icons li a.icon:hover:before {
-  color: #18bfef;
+  color: #AB5150;
 }
 
 #footer ul.icons.alt li .icon:before {
@@ -4260,7 +4257,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #footer ul.icons.alt li a.icon:hover:before {
-  box-shadow: inset 0 0 0 2px #18bfef;
+  box-shadow: inset 0 0 0 2px #AB5150;
 }
 
 #footer header.major .date:before,
@@ -4302,14 +4299,14 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #footer .pagination a:hover {
-  color: #18bfef !important;
-  border-color: #18bfef;
+  color: #AB5150 !important;
+  border-color: #AB5150;
   z-index: 1;
 }
 
 #footer .pagination a:hover + a,
 #footer .pagination a:hover + span {
-  border-left-color: #18bfef;
+  border-left-color: #AB5150;
 }
 
 #footer .pagination a.active {
@@ -4542,7 +4539,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #copyright a:hover {
   border-bottom-color: transparent;
-  color: #18bfef !important;
+  color: #AB5150 !important;
 }
 
 #copyright strong,

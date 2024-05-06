@@ -35,7 +35,3 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   transform: none;
   opacity: 1;
 }
-
-/*body {
-  background-image: url("../img/bg-brick.jpg");
-}*/
