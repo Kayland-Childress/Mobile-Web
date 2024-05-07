@@ -13,23 +13,6 @@ main {
   padding: 0;
 }
 
-/*body {
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../img/bg-web.jpg");
-  height: 100vh;
-  background-attachment: fixed;
-
-  font-family: "Lato", sans-serif;
-  color: white;
-
-  align-content: center;
-  text-align: center;
-}*/
-
 body {
   position: absolute;
   top: 0;
@@ -41,6 +24,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: "Lato", sans-serif;
 }
 
 header.primary {
@@ -64,17 +48,6 @@ header.primary {
   font-size: 2em;
 }
 
-/*#container {
-  background-color: rgba(129, 80, 102, 0.4);
-  
-}*/
-
-/*a {
-  text-decoration: none;
-  color: white;
-  font-size: 2em;
-}*/
-
 nav {
   color: #fff;
   display: flex;
@@ -88,14 +61,6 @@ nav {
   width: calc(100% - 4rem);
   max-width: 72rem;
 }
-
-/*menu {
-  align-items: center;
-}
-
-menuitem {
-  display: flex;
-}*/
 
 nav menu {
   letter-spacing: 0.075em;
